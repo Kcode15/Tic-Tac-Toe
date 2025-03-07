@@ -51,7 +51,7 @@ const enableBoxes=()=>{
     count=0;
 }
 const showWinner=(winner)=>{
-    msg.innerText=`Congragulations, Winner is ${winner}`;
+    msg.innerText=`Congratulations, Winner is ${winner}`;
     msgcontainer.classList.remove("hide");
     disableBoxes();
 }
@@ -69,7 +69,7 @@ const checkWinner = () =>{
     
 }
 const draw=()=>{
-    msg.innerHTML="The match is Drawed"
+    msg.innerHTML="The match is Draw"
     msgcontainer.classList.remove("hide")
 }
 const resetGame=()=>{
